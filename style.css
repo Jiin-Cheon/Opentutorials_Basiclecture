@@ -1,0 +1,11 @@
+body {margin:0px;}
+a {color:black;}
+h1 {font-size:50px; text-align:center; border-bottom:1px solid grey; margin:0px; padding:10px;}
+#grid{display:grid; grid-template-columns:150px 1fr;}
+#grid ol{border-right:1px solid grey; padding-left:33px; padding-top:20px; padding-right:20px; margin:0px; width:100px;}
+#article{padding-left:20px;}
+@media(max-width:800px){
+  h1 {font-size:40px;}
+  #grid{display:inline;}
+  #grid ol{border-right:none;}
+}
